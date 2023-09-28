@@ -1,59 +1,51 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+body {
+    display: flex;
+    line-height: 2.3;
+    flex-direction: column;
 }
+/*Header for my name and navigation*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: #13293d;
+    color: #fff;
+    }
+    h1 {
+    font-size: 200%;
+    }
+/*Navigation details*/
+    nav {
+    color: #b9C6ae;
+    font-weight: bold;
+    text-decoration: none;
+    }
+    
+    nav:hover {
+    color: #fff;
+    }
 
-main {
-    background-color: #d9dcd6;
-}
-
-.header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
-    background-color: rgb(51, 48, 48);
-    color: #ffffff;
-}
-.header h1 {
-    display: inline-block;
-    font-size: 48px;
-    margin: 20;
-}
-
-.headertwo h2 {
-    padding: 20px;
-    font-size: 24px;
-    float: right;
-    margin-left: 50;
-
-}
-.header div {
-    padding-top: 15px;
-    margin-right: 15px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-}
-.header div ul {
-    list-style-type: none;
-    display: inline-block;
-    margin-left: 25px;
-
-}
-.header div ul li {
-    display: inline-block;
-    margin-left: 25px;
-}
-
-::content {
-    float:inline-end;
-}
-
-h3 {
-    float: left;
-    margin-left: 25px;
-    display: inline-flex;
-}
-p {
-    font-size: 16px;
-}
+    nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+    }
+/*Header with fun fact about me*/
+    article {
+    flex: 1 1 0;
+    padding-left: 80%;
+    align-content: right;
+    background-color: lightslategray;
+    text-align: right;
+    font-size: larger;
+    padding-right: 5%;
+    }
+/*Section detials with images*/
+    section {
+    display: flex;
+    flex: 1 1 0;
+    text-align: left;
+    padding-right: 10%;
+    margin-top: 10px;
+    }
