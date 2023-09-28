@@ -10,4 +10,4 @@ Created new code to create a start to my Professional Portfolio.
 
 
 ## Deployed Link
-https://jlinex.github.io/UTA-Challenge-1/ 
+https://jlinex.github.io/UTA-Challenge-2/ 
